@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException
 /**
  * 扩展函数
  */
-fun toMD5(string: String):String {
+fun toMD5(string: String): String {
     try {
         //获取md5加密对象
         val instance: MessageDigest = MessageDigest.getInstance("MD5")
